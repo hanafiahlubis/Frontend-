@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  color: #fff;
+}
+
+::placeholder {
+  color: white;
+}
+
+.bacg {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(39deg, rgba(0, 0, 0, 1) 009%, rgba(0, 0, 0, 0.7903536414565826) 86%);
+}
+
+.warna {
+  background: rgb(96, 148, 244);
+  background: linear-gradient(39deg, rgba(96, 148, 244, 1) 009%, rgba(19, 48, 140, 0.7903536414565826) 86%);
+}
